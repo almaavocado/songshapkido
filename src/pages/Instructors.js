@@ -69,6 +69,7 @@ const firstdegree = [
         name: 'Alma Alvarado',
         imageSrc: Alma,
         imageAlt: 'Alvarado',
+        description: '"The journey ends when you stop trying!"'
     },
     
 ]
