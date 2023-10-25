@@ -69,7 +69,7 @@ const firstdegree = [
         name: 'Alma Alvarado',
         imageSrc: Alma,
         imageAlt: 'Alvarado',
-        description: 'Alma Alvarado has studied the art of Hapkido since the age of 9. Hapkido has helped her gain self confidence and would love to inspire more women to join Hapkdio.'
+        description: 'Alma Alvarado has studied the art of Hapkido since the age of 9. Hapkido has helped her gain self confidence and would love to inspire more women to join Hapkido.'
     },
     
 ]
