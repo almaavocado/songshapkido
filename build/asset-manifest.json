@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.b43a1b08.css",
-    "main.js": "/static/js/main.67416de0.js",
+    "main.css": "/static/css/main.affad03e.css",
+    "main.js": "/static/js/main.5e7dd51f.js",
     "static/js/787.a6cfeef0.chunk.js": "/static/js/787.a6cfeef0.chunk.js",
     "static/media/children.png": "/static/media/children.4097c647cca7274d915f.png",
     "static/media/sparring.png": "/static/media/sparring.c93c1a213142b975fd97.png",
@@ -10,19 +10,19 @@
     "static/media/appbanner2.png": "/static/media/appbanner2.5d512c5335c9f1a3c29d.png",
     "static/media/adult-info.png": "/static/media/adult-info.8130242a2de5c4b72401.png",
     "static/media/sparring.jpg": "/static/media/sparring.7a825741c9745d60d9ae.jpg",
-    "static/media/harris-instructor.JPG": "/static/media/harris-instructor.a76033b9a010227a86c4.JPG",
-    "static/media/okelly-instructor.JPG": "/static/media/okelly-instructor.5aca5f0aad1e300cdd07.JPG",
+    "static/media/harris-instructor.jpg": "/static/media/harris-instructor.a76033b9a010227a86c4.jpg",
+    "static/media/okelly-instructor.jpg": "/static/media/okelly-instructor.5aca5f0aad1e300cdd07.jpg",
     "static/media/appbanner1.png": "/static/media/appbanner1.396d5b1f14890b2d25fe.png",
-    "static/media/alma-instructor.JPG": "/static/media/alma-instructor.57712bc570b2f022bdb5.JPG",
+    "static/media/alma-instructor.jpg": "/static/media/alma-instructor.57712bc570b2f022bdb5.jpg",
     "static/media/selfdefense.jpg": "/static/media/selfdefense.000c58c3ca29298a7e5f.jpg",
     "static/media/juniors.png": "/static/media/juniors.1aeeb68b68b924654991.png",
     "static/media/falling.jpg": "/static/media/falling.7f05c9ecf518e8754768.jpg",
     "static/media/song-weapon.png": "/static/media/song-weapon.575db430165f0c63b45c.png",
     "static/media/SongsBeltProgression.png": "/static/media/SongsBeltProgression.92263806a7a6488be297.png",
     "static/media/punching2.jpg": "/static/media/punching2.cb389f505950ea61a9c9.jpg",
-    "static/media/gatinel-instructor.JPG": "/static/media/gatinel-instructor.e0f53a5b04281df98617.JPG",
-    "static/media/throwing.JPG": "/static/media/throwing.a36a493fce58aace4047.JPG",
-    "static/media/jesse-instructor.JPG": "/static/media/jesse-instructor.08c466c50f53faea801e.JPG",
+    "static/media/gatinel-instructor.jpg": "/static/media/gatinel-instructor.e0f53a5b04281df98617.jpg",
+    "static/media/throwing.jpg": "/static/media/throwing.a36a493fce58aace4047.jpg",
+    "static/media/jesse-instructor.jpg": "/static/media/jesse-instructor.08c466c50f53faea801e.jpg",
     "static/media/song-flip.png": "/static/media/song-flip.0eac3e1414c35f16ef4a.png",
     "static/media/song-mclynn.jpg": "/static/media/song-mclynn.86ac6663857fc92d49d0.jpg",
     "static/media/SongsHapkidoWLAClassSchedule.pdf": "/static/media/SongsHapkidoWLAClassSchedule.c3b13f02c0f53d00a938.pdf",
@@ -33,12 +33,12 @@
     "static/media/hapkido-logo.png": "/static/media/hapkido-logo.0f48096b57090419c904.png",
     "static/media/song-marine.jpeg": "/static/media/song-marine.79caec470343ee8470df.jpeg",
     "index.html": "/index.html",
-    "main.b43a1b08.css.map": "/static/css/main.b43a1b08.css.map",
-    "main.67416de0.js.map": "/static/js/main.67416de0.js.map",
+    "main.affad03e.css.map": "/static/css/main.affad03e.css.map",
+    "main.5e7dd51f.js.map": "/static/js/main.5e7dd51f.js.map",
     "787.a6cfeef0.chunk.js.map": "/static/js/787.a6cfeef0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b43a1b08.css",
-    "static/js/main.67416de0.js"
+    "static/css/main.affad03e.css",
+    "static/js/main.5e7dd51f.js"
   ]
 }
