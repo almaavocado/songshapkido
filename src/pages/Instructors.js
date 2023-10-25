@@ -1,10 +1,10 @@
 import songMclynn from '../assets/instructors/song-mclynn.jpg';
-import okelly from '../assets/instructors/okelly-instructor.JPG'
+import okelly from '../assets/instructors/okelly-instructor.jpg'
 import profile from '../assets/instructors/profile.png';
-import Alma from '../assets/instructors/alma-instructor.JPG'
-import Gatinel from '../assets/instructors/gatinel-instructor.JPG'
-import Harris from '../assets/instructors/harris-instructor.JPG'
-import Madera from '../assets/instructors/jesse-instructor.JPG'
+import Alma from '../assets/instructors/alma-instructor.jpg'
+import Gatinel from '../assets/instructors/gatinel-instructor.jpg'
+import Harris from '../assets/instructors/harris-instructor.jpg'
+import Madera from '../assets/instructors/jesse-instructor.jpg'
 import Wollin from '../assets/instructors/wollin-instructor.jpg'
 import { useState } from 'react';
 
