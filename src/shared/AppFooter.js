@@ -22,7 +22,7 @@ function Footer() {
           4354 Sepulveda Blvd, Culver City, CA 90230
         </p>
         <p className="text-xs sm:text-sm font-medium text-white text-center mb-4">
-          (310)-391-1714
+          <a href="tel:+13103911714">(310)-391-1714</a>
         </p>
         <div className="flex gap-4 justify-center">
           {iconsTab.map((item, index) => (
@@ -37,7 +37,7 @@ function Footer() {
             </a>
           ))}
         </div>
-        <p className="text-xs sm:text-sm font-medium text-white text-center mt-4">
+        <p className="text-xs sm:text-sm font-medium text-white text-center mt-4 mb-10">
           Privacy Policy | © {new Date().getFullYear()} Song's Hapkido West Los Angeles <br />
           Created by{" "}
           <a

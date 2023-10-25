@@ -46,7 +46,7 @@ const WhatIsHapkido = () => {
               </p>
             </div>
             <div>
-              <h3 className="text-xl font-semibold text-gray-700">Balanced Matrial Art</h3>
+              <h3 className="text-xl font-semibold text-gray-700">Balanced Martial Art</h3>
               <p className="text-gray-600">
                 Hapkido combines the soft and yielding aspects of martial arts with
                 the hard and powerful techniques, creating a balanced martial art.
@@ -77,9 +77,9 @@ const WhatIsHapkido = () => {
         <section className="mb-10">
           <h2 className="text-xl font-bold text-gray-800 mb-4">The Three Principles of Hapkido</h2>
           <ul className="list-disc text-gray-600 pl-4">
-            <li><strong>Principle of Sum: </strong> Using your opponents energy against them</li>
+            <li><strong>Principle of Sum: </strong> Using your opponent's energy against them</li>
             <li><strong>Principle of Water: </strong>Non-resistance</li>
-            <li><strong>Principle of Circular Motion: </strong>Continous Movement</li>
+            <li><strong>Principle of Circular Motion: </strong>Continuous Movement</li>
           </ul>
 
         </section>
@@ -97,11 +97,8 @@ const WhatIsHapkido = () => {
               <img src={BeltProgression} alt="BeltProgression" className="lg:w-3/4 lg:h-90" />
             </div>
 
-          </div>
-          
+          </div>         
         </section>
-
-        
       </div>
     </div>
   );

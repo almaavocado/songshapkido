@@ -1,6 +1,6 @@
 import songAir from '../assets/mastersong/song-air.png';
 import songFlip from '../assets/mastersong/song-flip.png';
-import songMarine from '../assets/mastersong/song-marine.jpeg';
+import songMarine from '../assets/mastersong/song-marine.png';
 import grandMaster from '../assets/mastersong/song-weapon.png';
 
 const facts = [
