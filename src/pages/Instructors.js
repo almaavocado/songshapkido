@@ -1,11 +1,11 @@
 import songMclynn from '../assets/instructors/song-mclynn.jpg';
-import okelly from '../assets/instructors/okelly-instructor.jpg'
+import okelly from '../assets/instructors/okelly-instructor.png'
 import profile from '../assets/instructors/profile.png';
-import Alma from '../assets/instructors/alma-instructor.jpg'
-import Gatinel from '../assets/instructors/gatinel-instructor.jpg'
-import Harris from '../assets/instructors/harris-instructor.jpg'
-import Madera from '../assets/instructors/jesse-instructor.jpg'
-import Wollin from '../assets/instructors/wollin-instructor.jpg'
+import Alma from '../assets/instructors/alma-instructor.png'
+import Gatinel from '../assets/instructors/gatinel-instructor.png'
+import Harris from '../assets/instructors/harris-instructor.png'
+import Madera from '../assets/instructors/jesse-instructor.png'
+import Wollin from '../assets/instructors/wollin-instructor.png'
 import { useState } from 'react';
 
 
@@ -69,7 +69,7 @@ const firstdegree = [
         name: 'Alma Alvarado',
         imageSrc: Alma,
         imageAlt: 'Alvarado',
-        description: '"The journey ends when you stop trying!"'
+        description: 'Alma Alvarado has studied the art of Hapkido since the age of 9. Hapkido has helped her gain self confidence and would love to inspire more women to join Hapkdio.'
     },
     
 ]

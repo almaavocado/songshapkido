@@ -6,7 +6,7 @@ import punching2 from '../assets/program-cards/punching2.jpg'
 import selfDefense from '../assets/program-cards/selfdefense.jpg'
 import falling from '../assets/program-cards/falling.jpg'
 import sparring from '../assets/program-cards/sparring.jpg'
-import throwing from '../assets/program-cards/throwing.jpg'
+import throwing from '../assets/program-cards/throwing.png'
 
 const programsData = [
   {
