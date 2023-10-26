@@ -92,9 +92,10 @@ export default function Schedule() {
 
       <div className="flex justify-center mb-20">
         <a
-          href={SongsHapkidoClassSchedule}  // Replace with the actual file URL
-          download="Song's Hapkido WLA Schedule" // Replace with the desired file name
-        >
+						download="SongsHapkidoWLAClassSchedule.pdf"
+						href={SongsHapkidoClassSchedule}
+						aria-label="Download Full Schedule"
+					>
           <button className="bg-yellow-700 text-white rounded-full px-4 py-2 hover-bg-slate-500 transition-all duration-300 mt-20">
             Download Full Schedule
           </button>
