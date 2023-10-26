@@ -2,6 +2,8 @@
 import React from 'react';
 import HeroCarousel from '../components/HeroCarousel';
 import ClassCards from '../components/ClassCards';
+import MobileHeroCarousel from '../components/MobileHeroCarousel';
+import styled from 'styled-components';
 
 import {
   CheckIcon,
@@ -15,14 +17,33 @@ const includedFeatures = [
   'Parental consent required for participants under 18 years of age'
 ]
 
+// Define a media query for mobile screens
+const mobileScreen = `(max-width: 768px)`;
+
+const HeroContainer = styled.div`
+  @media ${mobileScreen} {
+    display: none; // Hide the desktop HeroCarousel on mobile screens
+  }
+`;
+
+const MobileHeroContainer = styled.div`
+  display: none; // Hide the mobile HeroCarousel on desktop screens
+  @media ${mobileScreen} {
+    display: block;
+  }
+`;
+
 export default function Home() {
   return (
     <div className="bg-gray-100">
 
-      <div>
+      <HeroContainer>
         <HeroCarousel />
-  
-      </div>
+      </HeroContainer>
+
+      <MobileHeroContainer>
+        <MobileHeroCarousel />
+      </MobileHeroContainer>
       
 
       
