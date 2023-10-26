@@ -1,5 +1,5 @@
 import React from "react";
-import SongsHapkidoClassSchedule from '../files/SongsHapkidoWLAClassSchedule.pdf'
+import SongsHapkidoClassSchedule from '../assets/SongsHapkidoWLAClassSchedule.png';
 
 const classScheduleData = [
   {
@@ -78,30 +78,40 @@ export default function Schedule() {
         Class Schedule
       </h1>
 
-      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 grid gap-8 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 text-center justify-center mt-10">
-        {classScheduleData.map((item, index) => (
-          <ClassScheduleItem key={index} {...item} />
-        ))}
-      </div>
+      <div className="">
+        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 grid gap-8 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 text-center justify-center mt-10">
+          {classScheduleData.map((item, index) => (
+            <ClassScheduleItem key={index} {...item} />
+          ))}
+        </div>
 
-      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 grid gap-8 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 text-center justify-center mt-20">
-        {classScheduleData2.map((item, index) => (
-          <ClassScheduleItem key={index} {...item} />
-        ))}
+        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 grid gap-8 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 text-center justify-center mt-20">
+          {classScheduleData2.map((item, index) => (
+            <ClassScheduleItem key={index} {...item} />
+          ))}
+        </div>
+        
       </div>
+      
+      <div className="pt-10 sm:pt-30 pb-1 mt-20 border-t-2 border-primary-light dark:border-secondary-dark"/>
 
-      <div className="flex justify-center mb-20">
-        <a
-						download="SongsHapkidoWLAClassSchedule.pdf"
-						href={SongsHapkidoClassSchedule}
-						aria-label="Download Full Schedule"
-					>
-          <button className="bg-yellow-700 text-white rounded-full px-4 py-2 hover-bg-slate-500 transition-all duration-300 mt-20">
-            Download Full Schedule
-          </button>
-        </a>
+
+      <div className="mb-20">
+        <h1 className="text-2xl font-bold tracking-tight text-black sm:text-4xl mt-14 text-center mb-5">
+          Full Class Schedule
+        </h1>
+
+
+        <div>
+      
+            <img
+              src={SongsHapkidoClassSchedule}
+              alt="SongsHapkidoClassSchedule"
+              style={{ cursor: "pointer" }}
+            />
+        
+        </div>
       </div>
-
     </div>
   );
 }
