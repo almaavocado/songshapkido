@@ -1,5 +1,5 @@
 import React from "react";
-import SongsHapkidoClassSchedule from '../assets/files/SongsHapkidoWLAClassSchedule.pdf'
+import SongsHapkidoClassSchedule from '../files/SongsHapkidoWLAClassSchedule.pdf'
 
 const classScheduleData = [
   {
