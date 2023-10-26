@@ -1,11 +1,10 @@
 import React from 'react';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import { Carousel } from 'react-responsive-carousel';
-import appBanner1 from '../assets/mobilebanner-imgs/mobilebanner1.png';
+
 import appBanner2 from '../assets/mobilebanner-imgs/mobilebanner3.png';
 import appBanner3 from '../assets/mobilebanner-imgs/mobilebanner4.png';
 import appBanner4 from '../assets/mobilebanner-imgs/mobilebanner5.png';
-import appBanner5 from '../assets/mobilebanner-imgs/mobilebanner6.png';
 import appBanner6 from '../assets/mobilebanner-imgs/mobilebanner7.png';
 import appBanner7 from '../assets/mobilebanner-imgs/mobilebanner8.png';
 
@@ -37,16 +36,6 @@ const MobileHeroCarousel = () => {
     },
     {
         image: appBanner4,
-        buttonText: 'Learn More',
-        link: '/hapkido',
-      },
-      {
-        image: appBanner5,
-        buttonText: 'Learn More',
-        link: '/hapkido',
-      },
-      {
-        image: appBanner1,
         buttonText: 'Learn More',
         link: '/hapkido',
       },
