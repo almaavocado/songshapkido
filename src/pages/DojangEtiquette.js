@@ -12,15 +12,32 @@ function DojangEtiquette() {
       <div className="container mx-auto p-4">
         <section className="bg-gray-200 rounded-lg shadow p-4 mb-4">
           <h2 className="text-2xl font-semibold mb-4">Basic Korean Phrases</h2>
-          <p>When bowing, the class Senior (student first in line) will announce, chah ryut, gyung nyeah, ba-ro.</p>
 
-          <ul className="list-disc pl-8 mb-4 py-4">
+          <p className="text-xl font-semibold mt-3">Commands & Phrases:</p>
+          <ul className="list-disc pl-8 mb-4 py-2">
             <li><strong>Chah Ryut (cha-ree-ut):</strong> Attention</li>
-            <li><strong>Gyung Nyeah (gyung yay):</strong> Bow</li>
-            <li><strong>Ba-Ro (bah-ro):</strong> At ease</li>
+            <li><strong>Choon bi:</strong> Ready</li>
+            <li><strong>Kyung nae (gyung yay):</strong> Bow</li>
+            <p className='italic'>When bowing, the class Senior will announce, chah ryut, kyung nae, ba-ro.</p>
+            <li><strong>Bah Ro (bah-ro):</strong> At ease</li>
+            <li><strong>Chul Sa:</strong> Line up</li>
+            <li><strong>Seijak: </strong> Begin </li>
             <li><strong>Kiyap: </strong> Yell </li>
-            <li><strong>Dojang:</strong> The Studio</li> 
+            <li><strong>Don jon ho hop bup:</strong> Deep breathing</li>
+            <li><strong>Kahm sa hamnida:</strong> Thank You</li>
           </ul>
+
+
+          <p className="text-xl font-semibold mt-3">Titles:</p>
+          <ul className="list-disc pl-8 mb-4 py-2">
+            <li><strong>Dojang:</strong> Training hall</li>
+            <li><strong>Dobok:</strong> Uniform</li>
+            <li><strong>Sobumnim:</strong>  Instructor</li>
+            <li><strong>Kwangjanim:</strong> Master</li>
+            <li><strong>Kuksanim:</strong> Grandmaster</li>
+            <li><strong>Jae ja:</strong> Student</li>
+          </ul>
+
         </section>
 
         <section className="bg-gray-200 rounded-lg shadow p-4 mb-4">

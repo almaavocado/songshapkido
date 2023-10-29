@@ -13,7 +13,8 @@ import {
   UserIcon,
   CalendarIcon,
   PuzzleIcon,
-  BookOpenIcon
+  BookOpenIcon,
+  CameraIcon
 , // Update the import to XIcon as XMarkIcon
 } from '@heroicons/react/outline'; // Update the path to '@heroicons/react/outline'
 
@@ -31,12 +32,14 @@ const aboutUsItems = [
 const classesItems = [
   { name: 'Our Curriculum', href: '/our-curriculum', icon: PuzzleIcon },
   { name: 'Class Schedule',  href: '/class-schedule', icon: CalendarIcon },
+  { name: 'Upcoming Events',  href: '/events', icon: CameraIcon },
+
 ]
 
 const socialLinks = [
   { icon: <FaInstagram />, link: 'https://www.instagram.com/songshapkidowestla' },
   { icon: <AiFillYoutube />, link: 'https://youtube.com/@SongsHapkidoWLA?si=Tiu2iKtN-pjdvIYd' },
-  { icon: <FaFacebookF />, link: 'https://www.facebook.com/profile.php?id=61552570045697&mibextid=LQQJ4d' },
+  { icon: <FaFacebookF />, link: 'https://www.facebook.com/profile.php?id=61552637982137' },
   
 ];
 
@@ -113,7 +116,7 @@ export default function NavigationData() {
 
           <Popover className="relative">
             <Popover.Button className="flex items-center gap-x-1 text-lg font-semibold leading-6 text-gray-900">
-              Classes
+              Classes & Events
               <ChevronDownIcon className="h-5 w-5 flex-none text-gray-400" aria-hidden="true" />
             </Popover.Button>
 
@@ -248,7 +251,7 @@ export default function NavigationData() {
                   {({ open }) => (
                     <>
                       <Disclosure.Button className="flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">
-                        Classes
+                        Classes & Events
                         <ChevronDownIcon
                           className={classNames(open ? 'rotate-180' : '', 'h-5 w-5 flex-none')}
                           aria-hidden="true"

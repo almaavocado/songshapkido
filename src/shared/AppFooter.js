@@ -6,7 +6,7 @@ function Footer() {
   const iconsTab = [
     { icon: <FaInstagram />, link: 'https://www.instagram.com/songshapkidowestla' },
     { icon: <AiFillYoutube />, link: 'https://youtube.com/@SongsHapkidoWLA?si=Tiu2iKtN-pjdvIYd' },
-    { icon: <FaFacebookF />, link: 'https://www.facebook.com/profile.php?id=61552570045697&mibextid=LQQJ4d' },
+    { icon: <FaFacebookF />, link: 'https://www.facebook.com/profile.php?id=61552637982137' },
     
   ];
 
@@ -37,7 +37,7 @@ function Footer() {
             </a>
           ))}
         </div>
-        <p className="text-xs sm:text-sm font-medium text-white text-center mt-4 mb-10">
+        <p className="text-xs sm:text-sm font-medium text-white text-center mt-4 mb-20">
           Privacy Policy | © {new Date().getFullYear()} Song's Hapkido West Los Angeles <br />
           Created by{" "}
           <a

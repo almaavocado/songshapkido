@@ -12,6 +12,8 @@ import Instructors from './pages/Instructors';
 import OurCurriculum from './pages/Programs';
 import ClassSchedule from './pages/Schedule';
 import AppFooter from "./shared/AppFooter";
+import Events from "./pages/Events";
+import NotFound from "./pages/NotFound";
 import Navbar from "./shared/Navbar";
 import UseScrollToTop from './hooks/useScrollToTop';
 import ScrollToTop from './components/ScrollToTop';
@@ -35,11 +37,13 @@ const App = () => {
         <Route path="/instructors" element={<Instructors />} />
         <Route path="/our-curriculum" element={<OurCurriculum />} /> 
         <Route path="/dojang-etiquette" element={<DojangEtiquette />} />
+        <Route path="/events" element={<Events />} />
 
         {/* Add more routes for other pages */}
         <Route path="/contact-us" element={<ContactUs />} />
         <Route path="/reviews" element={<Reviews />} />
         <Route path="/class-schedule" element={<ClassSchedule />} />
+        <Route path="*" element={<NotFound />} />
 
       </Routes>
       <AppFooter />
