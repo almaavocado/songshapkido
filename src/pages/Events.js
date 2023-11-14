@@ -1,16 +1,7 @@
 import React from 'react';
-import HalloweenFlyer from '../assets/events/SongsHapkidoHalloweenPartyFlyer.png';
 
 const events = [
-  {
-    title: "Song's Hapkido WLA Halloween Party",
-    date: "October 31st, 2023",
-    time: "5:00 PM - 7:00 PM",
-    location: "Song's Hapkido WLA",
-    description: "Join us for a spooktacular Halloween party, potluck style, and trick-or-treating around Culver City!",
-    image: HalloweenFlyer,
-  },
-  // Add more events as needed
+  
 ];
 
 function Events() {
