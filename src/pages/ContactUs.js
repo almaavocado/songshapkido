@@ -5,37 +5,53 @@ import { ChevronDoubleDownIcon } from '@heroicons/react/outline'
 export default function Example() {
   return (    
     <div className="isolate bg-gray-100 px-6 py-24 sm:py-32 lg:px-8">
-        <div className="absolute inset-x-0 top-[-10rem] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[-20rem]" aria-hidden="true"></div>
-            <div className="mx-auto max-w-max text-center flex flex-wrap items-start justify-start">
-                <div className="w-full sm:w-1/2 p-4 text-left">
-                    <h2 className="text-3xl font-bold text-gray-900 sm:text-4xl">Studio Info</h2>
-                    <p className="text-2xl font-semibold pt-6">4354 Sepulveda Blvd, Culver City, CA 90230</p>
-                    <p className="text-2xl font-semibold pt-6">
-                    PHONE: <a href="tel:+13103911714">(310)-391-1714</a>
-                    </p>
-                    <p className="text-2xl font-semibold pt-6"></p>
-                    <p><strong>MON-THURS:</strong> 5:00PM-8:00PM</p>
-                    <p><strong>FRIDAY:</strong> 5:00PM-7:00PM</p>
-                    <p><strong>SAT:</strong> 9:30AM-12:00PM</p>
-                    <p><strong>SUN:</strong> CLOSED</p>
-                </div>
-                
-                <div className="w-full sm:w-1/2 p-4">
-                    {/* Google Maps Embed Code */}
-                    <div className="w-full aspect-w-4 aspect-h-3">
-                    <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1169.400606596289!2d-118.40842555311399!3d34.003720958825056!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2ba16ff4e762b%3A0x71a3c26853c5f3e5!2s4354%20Sepulveda%20Blvd%2C%20Culver%20City%2C%20CA%2090230!5e0!3m2!1sen!2sus!4v1697833360275!5m2!1sen!2sus"
-                        width="100%"
-                        height="100%"
-                        style={{ border: "0" }}
-                        allowFullScreen=""
-                        loading="lazy"
-                        referrerPolicy="no-referrer-when-downgrade"
-                        title="Google Map"
-                    ></iframe>
-                    </div>
+        <div
+        className="absolute inset-x-0 top-[-10rem] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[-20rem]"
+        aria-hidden="true"
+        />
+
+        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-16">
+        <div className="flex flex-col md:flex-row gap-8 items-start">
+            {/* Studio Info */}
+            <div className="w-full md:w-1/2 space-y-6">
+            <h2 className="text-4xl font-extrabold text-gray-900">Studio Info</h2>
+
+            <div className="space-y-3 text-lg text-gray-700">
+                <p className="font-semibold text-xl">4354 Sepulveda Blvd, Culver City, CA 90230</p>
+
+                <p className="font-semibold text-xl">
+                PHONE:{" "}
+                <a href="tel:+13103911714" className="text-blue-600 hover:underline">
+                    (310)-391-1714
+                </a>
+                </p>
+
+                <div className="pt-4">
+                <p><strong>MON–THURS:</strong> 5:00PM–8:00PM</p>
+                <p><strong>FRIDAY:</strong> 5:00PM–7:00PM</p>
+                <p><strong>SAT:</strong> 9:30AM–12:00PM</p>
+                <p><strong>SUN:</strong> CLOSED</p>
                 </div>
             </div>
+            </div>
+
+            {/* Google Map */}
+            <div className="w-full md:w-1/2 rounded-xl overflow-hidden shadow-lg">
+            <div className="aspect-w-4 aspect-h-3">
+                <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1169.400606596289!2d-118.40842555311399!3d34.003720958825056!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2ba16ff4e762b%3A0x71a3c26853c5f3e5!2s4354%20Sepulveda%20Blvd%2C%20Culver%20City%2C%20CA%2090230!5e0!3m2!1sen!2sus!4v1697833360275!5m2!1sen!2sus"
+                width="100%"
+                height="100%"
+                style={{ border: 0 }}
+                allowFullScreen=""
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                title="Google Map"
+                ></iframe>
+            </div>
+            </div>
+        </div>
+        </div>
 
 
         <div className="pt-20 sm:pt-30 pb-8 mt-20 border-t-2 border-primary-light dark:border-secondary-dark">

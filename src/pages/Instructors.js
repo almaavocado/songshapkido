@@ -31,11 +31,7 @@ const fourthDegree = [
         description: 'Mr. Gatinel, discovered Hapkido in 1995. After having practiced different arts, he decided to switch to Hapkido. "It\'s the complete Martial Art: characterized by joint locks, throws, and dynamic kicking techniques."',
 
       },
-
-]
-
-const thirdDegree = [
-    {
+      {
         name: 'Jesse Madera',
         imageSrc: Madera,
         imageAlt: 'Madera',
@@ -47,6 +43,16 @@ const thirdDegree = [
         imageAlt: 'Lee',
     
       },
+
+]
+
+const thirdDegree = [
+      {
+        name: 'Gary Harris',
+        imageSrc: Harris,
+        imageAlt: 'Harris',
+        description: '"The journey ends when you stop trying!"'
+      },
 ]
 
 const secondDegree = [
@@ -55,12 +61,6 @@ const secondDegree = [
         imageSrc: Wollin,
         imageAlt: 'Wollin',
         description: ''
-      },
-    {
-        name: 'Gary Harris',
-        imageSrc: Harris,
-        imageAlt: 'Harris',
-        description: '"The journey ends when you stop trying!"'
       },
 ]
 
@@ -85,7 +85,10 @@ const notPictured = [
         name: 'Brian Dobbins, 3rd Dan',
     },
     {
-        name: 'Jan Stolpe, 2nd Dan',
+        name: 'Jan Stolpe, 3rd Dan',
+    },
+    {
+        name: 'Jermaine Love, 2nd Dan',
     },
     {
         name: 'Jessica McLynn, 1st Dan',
@@ -104,7 +107,7 @@ export default function Instructors() {
         <div>
            
             <div className="bg-gray-100 pt-6">
-                <h1 className="text-4xl font-bold tracking-tight text-black sm:text-4xl mt-8 text-center">6th Dan Master</h1>
+                <h1 className="text-4xl font-bold tracking-tight text-black sm:text-4xl mt-8 text-center">7th Dan Master</h1>
 
                 <div className="mx-auto grid max-w-2xl grid-cols-1 items-center gap-x-8 gap-y-16 px-4 py-24 sm:px-6 sm:py-32 lg:max-w-7xl lg:grid-cols-2 lg:px-8">
                     <div className="grid grid-cols-1 gap-4 sm:gap-6 lg:gap-8">
@@ -117,7 +120,7 @@ export default function Instructors() {
                     
                     <div>
                         <h1 className="text-4xl font-bold tracking-tight text-black sm:text-4xl">Master Sean McLynn</h1>
-                        <h2 className="text-1xl mt-2 font-bold tracking-tight text-gray-700 sm:text-1xl">6th Dan Black Belt</h2>
+                        <h2 className="text-1xl mt-2 font-bold tracking-tight text-gray-700 sm:text-1xl">7th Dan Black Belt</h2>
                         <p className="mt-4 text-gray-900 text-md">
                             Back in 1992, Master Sean McLynn started teaching martial arts at a park in Westside LA. He's been at it ever since and has earned the impressive rank of 6th Dan Black Belt.
                             He's also the person behind Song's Hapkido in West LA, proudly associated with the Dohyun International Hapkido Federation. He's carried forward the tradition of martial arts with a lot of heart and dedication.
@@ -192,7 +195,7 @@ export default function Instructors() {
                 <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
                     <h1 className="text-4xl font-bold tracking-tight text-black sm:text-4xl mt-8 text-center">4th Dan Instructors</h1>
                     <div className="mx-auto max-w-2xl py-16 sm:py-24 lg:max-w-none lg:py-32">
-                        <div className="mt-6 space-y-12 lg:grid lg:grid-cols-1 lg:gap-x-6 lg:space-y-0">
+                        <div className="mt-6 space-y-12 lg:grid lg:grid-cols-3 lg:gap-x-6 lg:space-y-0">
                         {fourthDegree.map((callout) => (
                             <div
                             key={callout.name}
@@ -228,7 +231,7 @@ export default function Instructors() {
                 <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
                     <h1 className="text-4xl font-bold tracking-tight text-black sm:text-4xl mt-8 text-center">3rd Dan Instructors</h1>
                     <div className="mx-auto max-w-2xl py-16 sm:py-24 lg:max-w-none lg:py-32">
-                        <div className="mt-6 space-y-12 lg:grid lg:grid-cols-2 lg:gap-x-6 lg:space-y-0">
+                        <div className="mt-6 space-y-12 lg:grid lg:grid-cols-1 lg:gap-x-6 lg:space-y-0">
                         {thirdDegree.map((callout) => (
                             <div
                             key={callout.name}
@@ -264,7 +267,7 @@ export default function Instructors() {
                 <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
                     <h1 className="text-4xl font-bold tracking-tight text-black sm:text-4xl mt-8 text-center">2nd Dan Instructors</h1>
                     <div className="mx-auto max-w-2xl py-16 sm:py-24 lg:max-w-none lg:py-32">
-                        <div className="mt-6 space-y-12 lg:grid lg:grid-cols-2 lg:gap-x-6 lg:space-y-0">
+                        <div className="mt-6 space-y-12 lg:grid lg:grid-cols-1 lg:gap-x-6 lg:space-y-0">
                         {secondDegree.map((callout) => (
                             <div
                             key={callout.name}
